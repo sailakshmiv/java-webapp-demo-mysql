@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div class = "box_logo">
-		<img src= "/images/logo.png" class ="logo"/>
+		<img src= "/JavaWebappDemo-mySQL-0.0.1-SNAPSHOT/images/logo.png" class ="logo"/>
 	</div>
 	<div class ="box_main_part">
 	  	<h1>	

@@ -13,10 +13,10 @@ public class See_BankaccountsServlet extends HttpServlet {
 		private PrintWriter output;
 		private String returnSet;
 	
-		private String DBNAME= "df053859313094d5689c2bf8acf85cad2";
-		private String HOSTNAME= "10.0.0.4";
-		private String USER = "u9pc7tLiPYlPr";
-		private String PASSWORD = "ppx43CvRxSJzH";
+		private String DBNAME= "sai";
+		private String HOSTNAME= "localhost";
+		private String USER = "root";
+		private String PASSWORD = "root";
 		private String PORT= "3306";
 		
 		
@@ -62,7 +62,7 @@ public class See_BankaccountsServlet extends HttpServlet {
 				returnSet = returnSet + "<br/><br/>Failed to retrieve data<br/><br/>";
 			}
 			
-			returnSet = returnSet + "<a href=\"/home.jsp\"><button class =\"buttons\" >Back to start</button></a>";
+			returnSet = returnSet + "<a href=\"/JavaWebappDemo-mySQL-0.0.1-SNAPSHOT/home.jsp\"><button class =\"buttons\" >Back to start</button></a>";
 			returnSet = returnSet + "</div></body></html>";
 			output.println(returnSet);
 		}

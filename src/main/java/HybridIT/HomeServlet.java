@@ -55,7 +55,7 @@ public class HomeServlet extends HttpServlet {
 			
 			output = response.getWriter();
 			returnSet = "<!DOCTYPE html> <html> <head> <meta charset=\"utf-8\"> <title> Java Demo. </title> <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/index.css\"> </head> <body> <div class = \"box_logo\"> <img src= \"/images/logo.png\" class =\"logo\"/> </div> <div class =\"box_main_part\">";
-			returnSet = returnSet + " <h1> Welcome to this Java Web MySQL demo! </h1><a href = \"/do_transaction.jsp\"><button class =\"buttons\" >Do a transaction</button></a><br/><br/> <form action=\"see_transactions\" method=\"get\"><button class =\"buttons\" >See all transactions on this server</button></form><form action=\"see_bankaccounts\" method=\"get\"><button class=\"buttons\">See all bank accounts on this server</button></form>";
+			returnSet = returnSet + " <h1> Welcome to this Java Web MySQL demo! </h1><a href = \"/JavaWebappDemo-mySQL-0.0.1-SNAPSHOT/do_transaction.jsp\"><button class =\"buttons\" >Do a transaction</button></a><br/><br/> <form action=\"see_transactions\" method=\"get\"><button class =\"buttons\" >See all transactions on this server</button></form><form action=\"see_bankaccounts\" method=\"get\"><button class=\"buttons\">See all bank accounts on this server</button></form>";
 			
 			
 			returnSet = returnSet + "</div></body></html>";

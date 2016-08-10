@@ -12,10 +12,10 @@ public class Succesfully_SubmittedServlet extends HttpServlet {
 		private PrintWriter output;
 		private String returnSet;
 	
-		private String DBNAME= "df053859313094d5689c2bf8acf85cad2";
-		private String HOSTNAME= "10.0.0.4";
-		private String USER = "u9pc7tLiPYlPr";
-		private String PASSWORD = "ppx43CvRxSJzH";
+		private String DBNAME= "sai";
+		private String HOSTNAME= "localhost";
+		private String USER = "root";
+		private String PASSWORD = "root";
 		private String PORT= "3306";
 		
 		
@@ -59,8 +59,8 @@ public class Succesfully_SubmittedServlet extends HttpServlet {
 			
 			
 			output = response.getWriter();
-			returnSet = "<!DOCTYPE html> <html> <head> <meta charset=\"utf-8\"> <title> Java Demo. </title> <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/index.css\"> </head> <body> <div class = \"box_logo\"> <img src= \"/images/logo.png\" class =\"logo\"/> </div> <div class =\"box_main_part\">";
-			returnSet = returnSet + "<h1> Succesfully submitted. </h1> What do you want to do? <br/><br/> <form action=\"do_transaction\" method=\"post\" ><button class =\"buttons\" >Do a transaction!</button></form> <br/><br/><br/> <form action=\"see_transactions\" method=\"get\"> Want to see all transactions on this server? <br/><button class =\"buttons\" >See all transactions on this server</button></form> <form action=\"see_bankaccounts\" method=\"get\"><button class=\"buttons\">See all bank accounts on this server</button></form><a href=\"/home.jsp\"><button class =\"buttons\" >Back to Start</button></a> ";
+			returnSet = "<!DOCTYPE html> <html> <head> <meta charset=\"utf-8\"> <title> Java Demo. </title> <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/index.css\"> </head> <body> <div class = \"box_logo\"> <img src= \"/JavaWebappDemo-mySQL-0.0.1-SNAPSHOT/images/logo.png\" class =\"logo\"/> </div> <div class =\"box_main_part\">";
+			returnSet = returnSet + "<h1> Succesfully submitted. </h1> What do you want to do? <br/><br/> <form action=\"do_transaction\" method=\"post\" ><button class =\"buttons\" >Do a transaction!</button></form> <br/><br/><br/> <form action=\"see_transactions\" method=\"get\"> Want to see all transactions on this server? <br/><button class =\"buttons\" >See all transactions on this server</button></form> <form action=\"see_bankaccounts\" method=\"get\"><button class=\"buttons\">See all bank accounts on this server</button></form><a href=\"/JavaWebappDemo-mySQL-0.0.1-SNAPSHOT/home.jsp\"><button class =\"buttons\" >Back to Start</button></a> ";
 			returnSet = returnSet + "</div></body></html>";
 			output.println(returnSet);
 		}

@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div class = "box_logo">
-		<img src= "/images/logo.png" class ="logo"/>
+		<img src= "/JavaWebappDemo-mySQL-0.0.1-SNAPSHOT/images/logo.png" class ="logo"/>
 	</div>
 	<div class ="box_main_part">
 	  	<h1>	
@@ -41,7 +41,7 @@
 			</form>
 			<br/><br/><br/>
 			
-			<a href="/home.jsp"><button class ="buttons" >Back to start</button></a>
+			<a href="/JavaWebappDemo-mySQL-0.0.1-SNAPSHOT/home.jsp"><button class ="buttons" >Back to start</button></a>
   	</div> 	  	
 </body>
 </html>

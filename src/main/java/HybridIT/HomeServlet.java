@@ -12,10 +12,10 @@ public class HomeServlet extends HttpServlet {
 		private PrintWriter output;
 		private String returnSet;
 	
-		private String DBNAME= "df053859313094d5689c2bf8acf85cad2";
-		private String HOSTNAME= "10.0.0.4";
-		private String USER = "u9pc7tLiPYlPr";
-		private String PASSWORD = "ppx43CvRxSJzH";
+		private String DBNAME= "sai";
+		private String HOSTNAME= "localhost";
+		private String USER = "root";
+		private String PASSWORD = "root";
 		private String PORT= "3306";
 		
 		

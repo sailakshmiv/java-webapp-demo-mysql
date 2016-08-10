@@ -9,13 +9,13 @@
 </head>
 <body>
 	<div class = "box_logo">
-		<img src= "/images/logo.png" class ="logo"/>
+		<img src= "/JavaWebappDemo-mySQL-0.0.1-SNAPSHOT/images/logo.png" class ="logo"/>
 	</div>
 	<div class ="box_main_part">
 	  	<h1>	
 	  			Welcome to this Java Web MySQL demo!
 	  	</h1>			  
-				<a href="/do_transaction.jsp"><button class ="buttons" >Do a transaction</button></a>
+				<a href="/JavaWebappDemo-mySQL-0.0.1-SNAPSHOT/do_transaction.jsp"><button class ="buttons" >Do a transaction</button></a>
 			<br/><br/><br/>
 			<form action="see_transactions" method="get">
 	  				<a href="/see_transactions.jsp"><button class ="buttons" >See all transactions on this server</button></a>

@@ -39,7 +39,7 @@ public class See_TransactionsServlet extends HttpServlet {
 			
 			output = response.getWriter();
 			
-			returnSet = "<!DOCTYPE html> <html> <head> <meta charset=\"utf-8\"> <title> Java Demo. </title> <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/index.css\"> </head> <body> <div class = \"box_logo\"> <img src= \"/images/logo.png\" class =\"logo\"/> </div> <div class =\"box_main_part\"><h1> Available transactions on this server: </h1>";
+			returnSet = "<!DOCTYPE html> <html> <head> <meta charset=\"utf-8\"> <title> Java Demo. </title> <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/index.css\"> </head> <body> <div class = \"box_logo\"> <img src= \"/JavaWebappDemo-mySQL-0.0.1-SNAPSHOT/images/logo.png\" class =\"logo\"/> </div> <div class =\"box_main_part\"><h1> Available transactions on this server: </h1>";
 			
 			try {
 				transactionsTable = sqlStatement.executeQuery("SELECT * FROM `transaction`");

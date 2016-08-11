@@ -14,7 +14,7 @@ public class See_BankaccountsServlet extends HttpServlet {
 		private String returnSet;
 	
 		private String DBNAME= "sai";
-		private String HOSTNAME= "127.0.0.1";
+		private String HOSTNAME= "0.0.0.0";
 		private String USER = "root";
 		private String PASSWORD = "root";
 		private String PORT= "3306";
